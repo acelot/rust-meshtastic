@@ -41,7 +41,7 @@ fn main() -> std::io::Result<()> {
     );
     config.type_attribute(
         ".",
-        "#[cfg_attr(feature = \"serde\", serde(rename_all = \"camelCase\"))]",
+        "#[cfg_attr(feature = \"serde\", serde(rename_all = \"snake_case\"))]",
     );
     config.type_attribute(
         ".",
