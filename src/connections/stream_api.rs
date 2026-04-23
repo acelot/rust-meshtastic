@@ -905,7 +905,7 @@ impl ConnectedStreamApi<state::Configured> {
             MeshChannel::new(0)?,
             true,
             true,
-            false,
+            true,
             None,
             None,
         )
@@ -982,7 +982,7 @@ impl ConnectedStreamApi<state::Configured> {
             MeshChannel::new(0)?,
             true,
             true,
-            false,
+            true,
             None,
             None,
         )
@@ -1059,7 +1059,7 @@ impl ConnectedStreamApi<state::Configured> {
             MeshChannel::new(0)?,
             true,
             true,
-            false,
+            true,
             None,
             None,
         )
@@ -1127,7 +1127,7 @@ impl ConnectedStreamApi<state::Configured> {
             MeshChannel::new(0)?,
             true,
             true,
-            false,
+            true,
             None,
             None,
         )
