@@ -211,7 +211,7 @@ impl<State> ConnectedStreamApi<State> {
             ..Default::default()
         };
 
-        mesh_packet.rx_time = current_epoch_secs_u32();
+        mesh_packet.rx_time = Some(current_epoch_secs_u32());
 
         let payload_variant = Some(protobufs::to_radio::PayloadVariant::Packet(
             mesh_packet.clone(),
